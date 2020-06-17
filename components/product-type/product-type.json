@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_type_product_types",
+  "info": {
+    "name": "productType",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "eachProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "each-product.each-product"
+    },
+    "descriptions": {
+      "type": "richtext"
+    }
+  }
+}

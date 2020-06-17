@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "productCatagoryType": {
+      "type": "enumeration",
+      "enum": [
+        "sofa_set",
+        "bed",
+        "chest_of_drawer",
+        "cupboards",
+        "tv_stand",
+        "dressing",
+        "coffee_table",
+        "kitchen_cabinate",
+        "office",
+        "shelves",
+        "dining_table",
+        "spring_mattress",
+        "doors",
+        "night_table"
+      ],
+      "unique": true
+    },
+    "productTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-type.product-type"
+    },
+    "descriptions": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "name": "publication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "headerImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

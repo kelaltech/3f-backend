@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_each_product_each_products",
+  "info": {
+    "name": "eachProduct",
+    "icon": "box-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
