@@ -36,6 +36,9 @@
     },
     "descriptions": {
       "type": "richtext"
+    },
+    "sorting": {
+      "type": "integer"
     }
   }
 }

@@ -648,6 +648,9 @@
           },
           "descriptions": {
             "type": "string"
+          },
+          "sorting": {
+            "type": "integer"
           }
         }
       },
@@ -779,6 +782,9 @@
           },
           "descriptions": {
             "type": "string"
+          },
+          "sorting": {
+            "type": "integer"
           }
         }
       }
