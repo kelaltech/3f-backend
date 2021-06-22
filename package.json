@@ -11,6 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "connection-string": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "find-config": "^1.0.0",
     "knex": "<0.20.0",
     "pg": "latest",
     "strapi": "3.0.1",
