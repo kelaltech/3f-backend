@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', '3f-backend'),
         username: env('DATABASE_USERNAME', 'postgres'),
         password: env('DATABASE_PASSWORD', 'Pass1234'),
-        ssl: env.bool('DATABASE_SSL', false),
+        ssl:{ rejectUnauthorized: env.bool('DATABASE_SSL', false)},
       },
       options: {}
     },
