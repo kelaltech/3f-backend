@@ -9,6 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "resolutions": {
+    "**/sharp": "0.28.3"
+  },
   "devDependencies": {},
   "dependencies": {
     "connection-string": "^4.3.4",
